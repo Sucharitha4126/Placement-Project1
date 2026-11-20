@@ -1,4 +1,4 @@
-# Hospital Management System (Java Console)
+# Hospital Management System 
 
 A beginner-friendly project using classes, constructors, arrays, methods, loops, switch, Scanner and try-catch.
 
