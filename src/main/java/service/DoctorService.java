@@ -50,7 +50,15 @@ public class DoctorService {
     public void changeSchedule(int id, String schedule) {
         Doctor doctor = findDoctor(id);
         if (doctor == null || schedule.length() == 0) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+            System.out.println("Doctor not found or invalid schedule.");
+=======
             System.out.println("Doctor not found or invalid schedule");
+>>>>>>> friend/main
+=======
+            System.out.println("Doctor not found or invalid schedule.");
+>>>>>>> nisha/main
         } else {
             doctor.setSchedule(schedule);
             System.out.println("Schedule updated.");

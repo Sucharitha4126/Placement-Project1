@@ -6,7 +6,13 @@ import service.DoctorService;
 import service.AppointmentService;
 import service.BillingService;
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
 
+>>>>>>> friend/main
+=======
+>>>>>>> nisha/main
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -17,8 +23,18 @@ public class Main {
         int choice = 0;
 
         do {
+<<<<<<< HEAD
+<<<<<<< HEAD
+            System.out.println("\n===== HOSPITAL MANAGEMENT SYSTEM =====");
+            System.out.println("1. Register Patient");
+=======
             System.out.println("\n====* HOSPITAL MANAGEMENT SYSTEM *====");
             System.out.println("1. Patient Register ");
+>>>>>>> friend/main
+=======
+            System.out.println("\n===== HOSPITAL MANAGEMENT SYSTEM =====");
+            System.out.println("1. Register Patient");
+>>>>>>> nisha/main
             System.out.println("2. View Patients");
             System.out.println("3. Add Doctor");
             System.out.println("4. View Doctors and Schedules");
@@ -53,7 +69,15 @@ public class Main {
                         String specialization = sc.nextLine();
                         System.out.print("Schedule (e.g. Mon 10AM-12PM): ");
                         String schedule = sc.nextLine();
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        System.out.print("Consultation fee: ");
+=======
                         System.out.print("Consultation fees: ");
+>>>>>>> friend/main
+=======
+                        System.out.print("Consultation fee: ");
+>>>>>>> nisha/main
                         double fee = Double.parseDouble(sc.nextLine());
                         doctors.addDoctor(doctorName, specialization, schedule, fee);
                         break;
@@ -70,7 +94,15 @@ public class Main {
                         System.out.print("Patient ID: ");
                         int patientId = Integer.parseInt(sc.nextLine());
                         if (patients.findPatient(patientId) == null) {
+<<<<<<< HEAD
+<<<<<<< HEAD
+                            System.out.println("Patient not found. Register the patient first.");
+=======
                             System.out.println("Patient not found. Please register the patient first.");
+>>>>>>> friend/main
+=======
+                            System.out.println("Patient not found. Register the patient first.");
+>>>>>>> nisha/main
                             break;
                         }
                         System.out.print("Describe the patient's problem or symptoms: ");
@@ -102,9 +134,19 @@ public class Main {
                         billing.viewBills();
                         break;
                     case 11:
+<<<<<<< HEAD
+<<<<<<< HEAD
+                        System.out.println("Thank you!");
+                        break;
+=======
                         System.out.println("Thank you..!");
                         break;
                     
+>>>>>>> friend/main
+=======
+                        System.out.println("Thank you!");
+                        break;
+>>>>>>> nisha/main
                     default:
                         System.out.println("Invalid menu choice.");
                 }
