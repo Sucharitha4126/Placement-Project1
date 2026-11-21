@@ -1,9 +1,5 @@
-<<<<<<< HEAD
+
 # Hospital Management System 
-=======
-<<<<<<< HEAD
-# Hospital Management System (Java Console)
->>>>>>> friend/main
 
 A beginner-friendly project using classes, constructors, arrays, methods, loops, switch, Scanner and try-catch.
 
@@ -40,11 +36,6 @@ In VS Code, open the folder, install Extension Pack for Java, and run `app/Main.
 - Matching registered doctors are listed; the user chooses the doctor ID.
 - Suggestions are only a classroom demonstration, not medical diagnosis or emergency advice.
 - Data is stored in arrays and is not saved after exiting.
-<<<<<<< HEAD
-=======
-=======
-# Placement-Project
->>>>>>> 13df128258fc38b66533dc399fa9d03a5da99877
 
 ## Technologies Used
 - Java
@@ -71,4 +62,4 @@ javac -d out (Get-ChildItem -Recurse -Filter *.java | ForEach-Object { $_.FullNa
 
 Execute:
 java -cp out app.Main
->>>>>>> friend/main
+
