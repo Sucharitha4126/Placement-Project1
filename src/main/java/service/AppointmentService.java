@@ -13,18 +13,30 @@ public class AppointmentService {
             return;
         }
         if (date.length() == 0 || time.length() == 0) {
+<<<<<<< HEAD
             System.out.println("Date and time cannot be empty.");
             return;
         }
         if (count == appointments.length) {
             System.out.println("Appointment list is full.");
+=======
+            System.out.println("Date and time  cannot be empty.");
+            return;
+        }
+        if (count == appointments.length) {
+            System.out.println("Appointments list is full.");
+>>>>>>> friend/main
             return;
         }
         for (int i = 0; i < count; i++) {
             Appointment a = appointments[i];
             if (a.isActive() && a.getDoctorId() == doctorId &&
                 a.getDate().equals(date) && a.getTime().equals(time)) {
+<<<<<<< HEAD
                 System.out.println("Doctor is already booked at that time.");
+=======
+                System.out.println("The doctor has another appointment at that time.");
+>>>>>>> friend/main
                 return;
             }
         }
@@ -47,7 +59,11 @@ public class AppointmentService {
             System.out.println("Active appointment not found.");
         } else {
             a.cancel();
+<<<<<<< HEAD
             System.out.println("Appointment cancelled.");
+=======
+            System.out.println("The appointment has been cancelled.");
+>>>>>>> friend/main
         }
     }
 
