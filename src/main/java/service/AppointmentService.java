@@ -14,11 +14,15 @@ public class AppointmentService {
         }
         if (date.length() == 0 || time.length() == 0) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> nisha/main
             System.out.println("Date and time cannot be empty.");
             return;
         }
         if (count == appointments.length) {
             System.out.println("Appointment list is full.");
+<<<<<<< HEAD
 =======
             System.out.println("Date and time  cannot be empty.");
             return;
@@ -26,6 +30,8 @@ public class AppointmentService {
         if (count == appointments.length) {
             System.out.println("Appointments list is full.");
 >>>>>>> friend/main
+=======
+>>>>>>> nisha/main
             return;
         }
         for (int i = 0; i < count; i++) {
@@ -33,10 +39,14 @@ public class AppointmentService {
             if (a.isActive() && a.getDoctorId() == doctorId &&
                 a.getDate().equals(date) && a.getTime().equals(time)) {
 <<<<<<< HEAD
+<<<<<<< HEAD
                 System.out.println("Doctor is already booked at that time.");
 =======
                 System.out.println("The doctor has another appointment at that time.");
 >>>>>>> friend/main
+=======
+                System.out.println("Doctor is already booked at that time.");
+>>>>>>> nisha/main
                 return;
             }
         }
@@ -60,10 +70,14 @@ public class AppointmentService {
         } else {
             a.cancel();
 <<<<<<< HEAD
+<<<<<<< HEAD
             System.out.println("Appointment cancelled.");
 =======
             System.out.println("The appointment has been cancelled.");
 >>>>>>> friend/main
+=======
+            System.out.println("Appointment cancelled.");
+>>>>>>> nisha/main
         }
     }
 
